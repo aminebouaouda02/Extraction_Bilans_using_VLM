@@ -41,6 +41,21 @@ Both models achieved **100% field extraction accuracy** on the audited financial
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
 
+### 📄 Target Document: SAFACAR NORD SARL (Bilan Synthétique)
+
+<div align="center">
+  <table>
+    <tr>
+      <th align="center">Page 1: Bilan Actif (Assets)</th>
+      <th align="center">Page 2: Bilan Passif (Liabilities & Equity)</th>
+    </tr>
+    <tr>
+      <td align="center"><img src="images_presentation/bilan_group_3_page_1.png" width="420px" alt="Bilan Actif Page 1"></td>
+      <td align="center"><img src="images_presentation/bilan_group_3_page_2.png" width="420px" alt="Bilan Passif Page 2"></td>
+    </tr>
+  </table>
+</div>
+
 ---
 
 ## 🏗️ System Architecture
@@ -127,22 +142,9 @@ We solved this through a 3-step memory optimization protocol:
 
 To rigorously prove that the VLMs actually read the scanned ledger rather than confabulating plausible digits, we enforced 3 mathematical invariant tests:
 
-```
-                  ┌──────────────────────────────────────────────┐
-                  │      TRIPLE NON-HALLUCINATION PROTOCOL       │
-                  └──────────────────────┬───────────────────────┘
-                                         │
-         ┌───────────────────────────────┼──────────────────────────────┐
-         ▼                               ▼                              ▼
-┌──────────────────┐           ┌──────────────────┐           ┌──────────────────┐
-│  Check 01: Macro │           │ Check 02: Column │           │ Check 03: Row    │
-│  Equilibrium     │           │ Subtotal Sum     │           │ Arithmetic       │
-│                  │           │                  │           │                  │
-│ Actif ≡ Passif   │           │ Σ(Rows) ≡ Total  │           │ Net = Brut-Amort │
-│ 25.3M = 25.3M DH │           │ Across 8 Classes │           │ All 42 Lines     │
-│ Diff = 0.00 DH ✓ │           │ Rounding Δ = 0 ✓ │           │ |Δ| < 0.01 DH  ✓ │
-└──────────────────┘           └──────────────────┘           └──────────────────┘
-```
+<div align="center">
+  <img src="images_presentation/04_balance_equality_chart.png" alt="Balance Equality Chart" width="55%">
+</div>
 
 1. **Check 01 — Global Macro-Balance Equilibrium:**  
    $$\text{Total Actif Net (N)} = \text{Total Passif (N)} = 25,302,213.45\text{ DH} \quad \Longrightarrow \quad \text{Écart} = 0.00\text{ DH}$$  
@@ -184,6 +186,22 @@ Corporate financial statements constitute sensitive enterprise records. We condu
 
 ---
 
+## 🖼️ Presentation Assets (`images_presentation/`)
+
+The repository includes all high-resolution figures at **300 DPI**, directly embedded in the 14-slide executive presentation ([`TP3_VLM_Presentation_Groupe3.pptx`](TP3_VLM_Presentation_Groupe3.pptx)):
+
+| File | Resolution | Description & Role in Presentation |
+| :--- | :---: | :--- |
+| **[`01_pipeline_architecture.png`](images_presentation/01_pipeline_architecture.png)** | 300 DPI | **Slide 4** — Complete end-to-end flowchart from PDF to validated JSON. |
+| **[`02_vlm_architecture.png`](images_presentation/02_vlm_architecture.png)** | 300 DPI | **Slide 5** — Internal VLM mechanisms (ViT patch encoder, MLP, LLM decoder). |
+| **[`03_vram_reduction_chart.png`](images_presentation/03_vram_reduction_chart.png)** | 300 DPI | **Slide 9** — GPU memory reduction (23.43 GB OOM down to 9.5 GB on T4). |
+| **[`04_balance_equality_chart.png`](images_presentation/04_balance_equality_chart.png)** | 300 DPI | **Slide 10** — Actif vs Passif balance verification ($25,302,213.45\text{ DH}$, Écart $0.00\text{ DH}$). |
+| **[`05_latency_benchmark_chart.png`](images_presentation/05_latency_benchmark_chart.png)** | 300 DPI | **Slide 12** — Comparative latency benchmark (46s Cloud API vs 416s Local GPU). |
+| **[`bilan_group_3_page_1.png`](images_presentation/bilan_group_3_page_1.png)** | 200 DPI | High-resolution raster of Page 1: Actif (1654 × 2339 px). |
+| **[`bilan_group_3_page_2.png`](images_presentation/bilan_group_3_page_2.png)** | 200 DPI | High-resolution raster of Page 2: Passif (1654 × 2339 px). |
+
+---
+
 ## 📁 Repository Structure
 
 ```
@@ -209,7 +227,9 @@ c:\projets\TP3_Extraction_Bilans_VLM\
     ├── 02_vlm_architecture.png
     ├── 03_vram_reduction_chart.png
     ├── 04_balance_equality_chart.png
-    └── 05_latency_benchmark_chart.png
+    ├── 05_latency_benchmark_chart.png
+    ├── bilan_group_3_page_1.png
+    └── bilan_group_3_page_2.png
 ```
 
 ---
