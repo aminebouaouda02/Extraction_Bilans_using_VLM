@@ -40,18 +40,9 @@ export_all_images.py
 save_all_outputs.py
 test_exact_call.py
 
-# Other groups' unused balance sheets
-bilan_group_1.pdf
-bilan_group_2.pdf
-bilan_group_4.pdf
-bilan_group_5.pdf
-bilan_group_6.pdf
-bilan_group_7.pdf
-bilan_group_8.pdf
-bilan_group_9.pdf
-bilan_group_10.pdf
+# Internal report & context notes
+RAPPORT_PROJET_ET_CONTEXTE_VLM.md
 
-# Course assignment sheet & reference PPTX
-TP5_Extraction_Bilans_VLM.pdf
-Automated Extraction of Moroccan Financial Statements — VLM (EN).pptx
-Automated Extraction of Moroccan Financial Statements*.pptx
+# Binary documents (PDFs & PPTX presentations)
+*.pdf
+*.pptx

@@ -188,7 +188,7 @@ Corporate financial statements constitute sensitive enterprise records. We condu
 
 ## 🖼️ Presentation Assets (`images_presentation/`)
 
-The repository includes all high-resolution figures at **300 DPI**, directly embedded in the 14-slide executive presentation ([`TP3_VLM_Presentation_Groupe3.pptx`](TP3_VLM_Presentation_Groupe3.pptx)):
+The repository includes all high-resolution figures at **300 DPI** used in the technical documentation and project presentation:
 
 | File | Resolution | Description & Role in Presentation |
 | :--- | :---: | :--- |
@@ -205,21 +205,18 @@ The repository includes all high-resolution figures at **300 DPI**, directly emb
 ## 📁 Repository Structure
 
 ```
-c:\projets\TP3_Extraction_Bilans_VLM\
+TP3_Extraction_Bilans_VLM/
 ├── README.md                                  # Comprehensive technical report & documentation
 ├── .gitignore                                 # Production exclusion rules
 ├── .env.example                               # OpenRouter API key template
 ├── requirements.txt                           # Minimal pinned Python dependencies
 │
-├── bilan_group_3.pdf                          # Source 2-page balance sheet (SAFACAR NORD SARL)
 ├── bilan_group_3_page_1.png                   # Rendered 200 DPI Page 1: Actif (1654 x 2339 px)
 ├── bilan_group_3_page_2.png                   # Rendered 200 DPI Page 2: Passif (1654 x 2339 px)
 ├── bilan_group_3.json                         # Extracted JSON ledger (712 lines, 80 rows, 0.00 DH diff)
 │
 ├── TP3_Extraction_Bilans_VLM_Groupe3.ipynb    # Notebook 1: Cloud API (Nemotron 120B MoE)
 ├── TP3_Extraction_Bilans_VLM_Local_Qwen7B.ipynb # Notebook 2: Local GPU (Qwen 2.5-VL 7B on T4)
-├── TP3_VLM_Presentation_Groupe3.pptx          # 14-slide executive presentation (Canva/Claude style)
-├── RAPPORT_PROJET_ET_CONTEXTE_VLM.md          # Complete project synthesis & oral defense guide
 ├── verify_subtotals.py                        # Independent arithmetic verification script
 │
 └── images_presentation/                       # High-resolution (300 DPI) figures & charts
