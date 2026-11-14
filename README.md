@@ -235,8 +235,8 @@ TP3_Extraction_Bilans_VLM/
 
 ### 1. Clone & Set Up Environment
 ```bash
-git clone https://github.com/aminebouaouda02/TP3_Extraction_Bilans_VLM.git
-cd TP3_Extraction_Bilans_VLM
+git clone https://github.com/aminebouaouda02/Extraction_Bilans_using_VLM.git
+cd Extraction_Bilans_using_VLM
 
 # Create and activate virtual environment
 python -m venv venv
