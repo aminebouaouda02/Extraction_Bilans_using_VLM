@@ -1,0 +1,57 @@
+# Environment & Secret variables
+.env
+*.env
+.env.*
+!.env.example
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints*/
+*/.ipynb_checkpoints/*
+
+# IDE & Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Temporary scratch & generator scripts
+check_quick.py
+create_notebook.py
+create_local_notebook.py
+create_presentation.py
+create_presentation_v2.py
+create_presentation_claude.py
+build_claude_inspired_presentation.py
+dump_all_claude_slides.py
+inspect_claude_pptx.py
+export_all_images.py
+save_all_outputs.py
+test_exact_call.py
+
+# Other groups' unused balance sheets
+bilan_group_1.pdf
+bilan_group_2.pdf
+bilan_group_4.pdf
+bilan_group_5.pdf
+bilan_group_6.pdf
+bilan_group_7.pdf
+bilan_group_8.pdf
+bilan_group_9.pdf
+bilan_group_10.pdf
+
+# Course assignment sheet & reference PPTX
+TP5_Extraction_Bilans_VLM.pdf
+Automated Extraction of Moroccan Financial Statements — VLM (EN).pptx
+Automated Extraction of Moroccan Financial Statements*.pptx

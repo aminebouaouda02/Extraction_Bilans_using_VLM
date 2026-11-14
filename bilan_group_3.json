@@ -1,0 +1,716 @@
+{
+  "document": "bilan_group_3.pdf",
+  "metadata": {
+    "modele_vlm": "nvidia/nemotron-3.5-super-vl:free",
+    "date_extraction": "2026-11-14 12:47:12",
+    "latence_secondes": {
+      "actif": 26.31,
+      "passif": 17.07,
+      "total": 43.38
+    }
+  },
+  "actif": {
+    "page": "ACTIF",
+    "entreprise": "SAFACAR NORD SARL",
+    "exercice": {
+      ": ": "01/01/2023",
+      "fin": "31/12/2023"
+    },
+    "lignes": [
+      {
+        "rubrique": "IMMOBILISATIONS EN NON VALEURS (A)",
+        "poste": "",
+        "brut": 9761.4,
+        "amortissements_provisions": 7809.12,
+        "net_N": 1952.28,
+        "net_N1": 1952.28
+      },
+      {
+        "rubrique": "* Frais préliminaires",
+        "poste": "",
+        "brut": 9761.4,
+        "amortissements_provisions": 7809.12,
+        "net_N": 1952.28,
+        "net_N1": 1952.28
+      },
+      {
+        "rubrique": "* Charges à repartir sur plusieurs exercices",
+        "poste": "",
+        "brut": 0.0,
+        "amortissements_provisions": 0.0,
+        "net_N": 0.0,
+        "net_N1": 0.0
+      },
+      {
+        "rubrique": "* Primes de remboursement des obligations",
+        "poste": "",
+        "brut": 0.0,
+        "amortissements_provisions": 0.0,
+        "net_N": 0.0,
+        "net_N1": 0.0
+      },
+      {
+        "rubrique": "IMMOBILISATIONS INCORPORELLES (B)",
+        "poste": "",
+        "brut": 0.0,
+        "amortissements_provisions": 0.0,
+        "net_N": 0.0,
+        "net_N1": 0.0
+      },
+      {
+        "rubrique": "* Immobilisation en recherche et développement",
+        "poste": "",
+        "brut": 0.0,
+        "amortissements_provisions": 0.0,
+        "net_N": 0.0,
+        "net_N1": 0.0
+      },
+      {
+        "rubrique": "* Brevets, marques, droits et valeurs similaires",
+        "poste": "",
+        "brut": 0.0,
+        "amortissements_provisions": 0.0,
+        "net_N": 0.0,
+        "net_N1": 0.0
+      },
+      {
+        "rubrique": "* Fonds commercial",
+        "poste": "",
+        "brut": 0.0,
+        "amortissements_provisions": 0.0,
+        "net_N": 0.0,
+        "net_N1": 0.0
+      },
+      {
+        "rubrique": "* Autres immobilisations incorporelles",
+        "poste": "",
+        "brut": 0.0,
+        "amortissements_provisions": 0.0,
+        "net_N": 0.0,
+        "net_N1": 0.0
+      },
+      {
+        "rubrique": "IMMOBILISATIONS CORPORELLES (C)",
+        "poste": "",
+        "brut": 22476981.66,
+        "amortissements_provisions": 13224202.96,
+        "net_N": 9252778.7,
+        "net_N1": 7362320.96
+      },
+      {
+        "rubrique": "* Terrains",
+        "poste": "",
+        "brut": 0.0,
+        "amortissements_provisions": 0.0,
+        "net_N": 0.0,
+        "net_N1": 0.0
+      },
+      {
+        "rubrique": "* Constructions",
+        "poste": "",
+        "brut": 0.0,
+        "amortissements_provisions": 0.0,
+        "net_N": 0.0,
+        "net_N1": 0.0
+      },
+      {
+        "rubrique": "* Installations techniques, matériel et outillage",
+        "poste": "",
+        "brut": 109074.17,
+        "amortissements_provisions": 42407.5,
+        "net_N": 66666.67,
+        "net_N1": 0.0
+      },
+      {
+        "rubrique": "* Matériel transport",
+        "poste": "",
+        "brut": 21416483.54,
+        "amortissements_provisions": 13055690.48,
+        "net_N": 8360793.06,
+        "net_N1": 6502668.66
+      },
+      {
+        "rubrique": "* Mobilier, matériel de bureau et aménag. divers",
+        "poste": "",
+        "brut": 951423.95,
+        "amortissements_provisions": 126104.98,
+        "net_N": 825318.97,
+        "net_N1": 859652.3
+      },
+      {
+        "rubrique": "* Autres immobilisations corporelles",
+        "poste": "",
+        "brut": 0.0,
+        "amortissements_provisions": 0.0,
+        "net_N": 0.0,
+        "net_N1": 0.0
+      },
+      {
+        "rubrique": "* Immobilisations corporelles en cours",
+        "poste": "",
+        "brut": 0.0,
+        "amortissements_provisions": 0.0,
+        "net_N": 0.0,
+        "net_N1": 0.0
+      },
+      {
+        "rubrique": "IMMOBILISATIONS FINANCIERES (D)",
+        "poste": "",
+        "brut": 0.0,
+        "amortissements_provisions": 0.0,
+        "net_N": 0.0,
+        "net_N1": 0.0
+      },
+      {
+        "rubrique": "* Prêts immobilisés",
+        "poste": "",
+        "brut": 0.0,
+        "amortissements_provisions": 0.0,
+        "net_N": 0.0,
+        "net_N1": 0.0
+      },
+      {
+        "rubrique": "* Autres créances financières",
+        "poste": "",
+        "brut": 0.0,
+        "amortissements_provisions": 0.0,
+        "net_N": 0.0,
+        "net_N1": 0.0
+      },
+      {
+        "rubrique": "* Titres de participation",
+        "poste": "",
+        "brut": 0.0,
+        "amortissements_provisions": 0.0,
+        "net_N": 0.0,
+        "net_N1": 0.0
+      },
+      {
+        "rubrique": "* Autres titres immobilisés",
+        "poste": "",
+        "brut": 0.0,
+        "amortissements_provisions": 0.0,
+        "net_N": 0.0,
+        "net_N1": 0.0
+      },
+      {
+        "rubrique": "ECARTS DE CONVERSION -ACTIF (E)",
+        "poste": "",
+        "brut": 0.0,
+        "amortissements_provisions": 0.0,
+        "net_N": 0.0,
+        "net_N1": 0.0
+      },
+      {
+        "rubrique": "* Diminution des créances immobilisées",
+        "poste": "",
+        "brut": 0.0,
+        "amortissements_provisions": 0.0,
+        "net_N": 0.0,
+        "net_N1": 0.0
+      },
+      {
+        "rubrique": "* Augmentation des dettes de financement",
+        "poste": "",
+        "brut": 0.0,
+        "amortissements_provisions": 0.0,
+        "net_N": 0.0,
+        "net_N1": 0.0
+      },
+      {
+        "rubrique": "TOTAL I (A+B+C+D+E)",
+        "poste": "",
+        "brut": 22486743.06,
+        "amortissements_provisions": 13232012.08,
+        "net_N": 9254730.98,
+        "net_N1": 7364273.24
+      },
+      {
+        "rubrique": "STOCKS (F)",
+        "poste": "",
+        "brut": 0.0,
+        "amortissements_provisions": 0.0,
+        "net_N": 0.0,
+        "net_N1": 0.0
+      },
+      {
+        "rubrique": "* Marchandises",
+        "poste": "",
+        "brut": 0.0,
+        "amortissements_provisions": 0.0,
+        "net_N": 0.0,
+        "net_N1": 0.0
+      },
+      {
+        "rubrique": "* Matières et fournitures consommables",
+        "poste": "",
+        "brut": 0.0,
+        "amortissements_provisions": 0.0,
+        "net_N": 0.0,
+        "net_N1": 0.0
+      },
+      {
+        "rubrique": "* Produits en cours",
+        "poste": "",
+        "brut": 0.0,
+        "amortissements_provisions": 0.0,
+        "net_N": 0.0,
+        "net_N1": 0.0
+      },
+      {
+        "rubrique": "* produits intermédiaires et produits résiduels",
+        "poste": "",
+        "brut": 0.0,
+        "amortissements_provisions": 0.0,
+        "net_N": 0.0,
+        "net_N1": 0.0
+      },
+      {
+        "rubrique": "* Produits finis",
+        "poste": "",
+        "brut": 0.0,
+        "amortissements_provisions": 0.0,
+        "net_N": 0.0,
+        "net_N1": 0.0
+      },
+      {
+        "rubrique": "CREANCES DE L'ACTIF CIRCULANT (G)",
+        "poste": "",
+        "brut": 15695461.59,
+        "amortissements_provisions": 0.0,
+        "net_N": 15695461.59,
+        "net_N1": 14232332.78
+      },
+      {
+        "rubrique": "* Fournisseurs débiteurs, avances et acomptes",
+        "poste": "",
+        "brut": 264184.09,
+        "amortissements_provisions": 0.0,
+        "net_N": 264184.09,
+        "net_N1": 366600.5
+      },
+      {
+        "rubrique": "* Clients et comptes rattachés",
+        "poste": "",
+        "brut": 10360268.69,
+        "amortissements_provisions": 0.0,
+        "net_N": 10360268.69,
+        "net_N1": 9335975.75
+      },
+      {
+        "rubrique": "* Personnel",
+        "poste": "",
+        "brut": 0.0,
+        "amortissements_provisions": 0.0,
+        "net_N": 0.0,
+        "net_N1": 0.0
+      },
+      {
+        "rubrique": "* Etat",
+        "poste": "",
+        "brut": 4879156.26,
+        "amortissements_provisions": 0.0,
+        "net_N": 4879156.26,
+        "net_N1": 4337903.98
+      },
+      {
+        "rubrique": "* Comptes d'associés",
+        "poste": "",
+        "brut": 0.0,
+        "amortissements_provisions": 0.0,
+        "net_N": 0.0,
+        "net_N1": 0.0
+      },
+      {
+        "rubrique": "* Autres débiteurs",
+        "poste": "",
+        "brut": 191852.55,
+        "amortissements_provisions": 0.0,
+        "net_N": 191852.55,
+        "net_N1": 191852.55
+      },
+      {
+        "rubrique": "* Comptes de régularisation-Actif",
+        "poste": "",
+        "brut": 0.0,
+        "amortissements_provisions": 0.0,
+        "net_N": 0.0,
+        "net_N1": 0.0
+      },
+      {
+        "rubrique": "TITRES VALEURS DE PLACEMENT (H)",
+        "poste": "",
+        "brut": 0.0,
+        "amortissements_provisions": 0.0,
+        "net_N": 0.0,
+        "net_N1": 0.0
+      },
+      {
+        "rubrique": "ECARTS DE CONVERSION-ACTIF ( I )",
+        "poste": "",
+        "brut": 0.0,
+        "amortissements_provisions": 0.0,
+        "net_N": 0.0,
+        "net_N1": 0.0
+      },
+      {
+        "rubrique": ". (Eléments circulants)",
+        "poste": "",
+        "brut": 0.0,
+        "amortissements_provisions": 0.0,
+        "net_N": 0.0,
+        "net_N1": 0.0
+      },
+      {
+        "rubrique": "TOTAL II ( F+G+H+I )",
+        "poste": "",
+        "brut": 15695461.59,
+        "amortissements_provisions": 0.0,
+        "net_N": 15695461.59,
+        "net_N1": 14232332.78
+      },
+      {
+        "rubrique": "TRESORERIE-ACTIF",
+        "poste": "",
+        "brut": 352020.88,
+        "amortissements_provisions": 0.0,
+        "net_N": 352020.88,
+        "net_N1": 593621.89
+      },
+      {
+        "rubrique": "* Chèques et valeurs à encaisser",
+        "poste": "",
+        "brut": 150000.0,
+        "amortissements_provisions": 0.0,
+        "net_N": 150000.0,
+        "net_N1": 0.0
+      },
+      {
+        "rubrique": "* Banques, TG et CCP",
+        "poste": "",
+        "brut": 141341.88,
+        "amortissements_provisions": 0.0,
+        "net_N": 141341.88,
+        "net_N1": 589270.89
+      },
+      {
+        "rubrique": "* Caisse, Régie d'avances et accréditifs",
+        "poste": "",
+        "brut": 60679.0,
+        "amortissements_provisions": 0.0,
+        "net_N": 60679.0,
+        "net_N1": 4351.0
+      },
+      {
+        "rubrique": "TOTAL III",
+        "poste": "",
+        "brut": 352020.88,
+        "amortissements_provisions": 0.0,
+        "net_N": 352020.88,
+        "net_N1": 593621.89
+      },
+      {
+        "rubrique": "TOTAL GENERAL I+II+III",
+        "poste": "",
+        "brut": 38534225.53,
+        "amortissements_provisions": 13232012.08,
+        "net_N": 25302213.45,
+        "net_N1": 22190227.91
+      }
+    ],
+    "totaux": {
+      "total_I_actif_immobilise_net_N": 9254730.98,
+      "total_II_actif_circulant_net_N": 15695461.59,
+      "total_III_tresorerie_actif_net_N": 352020.88,
+      "total_general_actif_net_N": 25302213.45,
+      "total_general_actif_net_N1": 22190227.91
+    }
+  },
+  "passif": {
+    "page": "PASSIF",
+    "entreprise": "SAFACAR NORD SARL",
+    "exercice": {
+      ": ": "01/01/2023",
+      "fin": "31/12/2023"
+    },
+    "lignes": [
+      {
+        "rubrique": "CAPITAUX PROPRES",
+        "poste": "Capital social ou personnel (1)",
+        "montant_N": 500000.0,
+        "montant_N1": 500000.0
+      },
+      {
+        "rubrique": "CAPITAUX PROPRES",
+        "poste": "Moins : actionnaires, capital souscrit non appelé",
+        "montant_N": 0.0,
+        "montant_N1": 0.0
+      },
+      {
+        "rubrique": "CAPITAUX PROPRES",
+        "poste": "Capital appelé",
+        "montant_N": 0.0,
+        "montant_N1": 0.0
+      },
+      {
+        "rubrique": "CAPITAUX PROPRES",
+        "poste": "Dont versé",
+        "montant_N": 0.0,
+        "montant_N1": 0.0
+      },
+      {
+        "rubrique": "CAPITAUX PROPRES",
+        "poste": "Prime d'émission, de fusion, d'apport",
+        "montant_N": 0.0,
+        "montant_N1": 0.0
+      },
+      {
+        "rubrique": "CAPITAUX PROPRES",
+        "poste": "Ecarts de réévaluation",
+        "montant_N": 0.0,
+        "montant_N1": 0.0
+      },
+      {
+        "rubrique": "CAPITAUX PROPRES",
+        "poste": "Réserve légale",
+        "montant_N": 100000.0,
+        "montant_N1": 100000.0
+      },
+      {
+        "rubrique": "CAPITAUX PROPRES",
+        "poste": "Autres réserves",
+        "montant_N": 0.0,
+        "montant_N1": 0.0
+      },
+      {
+        "rubrique": "CAPITAUX PROPRES",
+        "poste": "Report à nouveau (2)",
+        "montant_N": -1957427.74,
+        "montant_N1": -2258960.69
+      },
+      {
+        "rubrique": "CAPITAUX PROPRES",
+        "poste": "Résultat nets en instance d'affectation (2)",
+        "montant_N": 0.0,
+        "montant_N1": 0.0
+      },
+      {
+        "rubrique": "CAPITAUX PROPRES",
+        "poste": "Résultat net de l'exercice (2)",
+        "montant_N": 162300.03,
+        "montant_N1": 301532.95
+      },
+      {
+        "rubrique": "Total des capitaux propres (A)",
+        "poste": "",
+        "montant_N": -1195127.71,
+        "montant_N1": -1357427.74
+      },
+      {
+        "rubrique": "CAPITAUX PROPRES ASSIMILES (B)",
+        "poste": "",
+        "montant_N": 0.0,
+        "montant_N1": 0.0
+      },
+      {
+        "rubrique": "CAPITAUX PROPRES ASSIMILES",
+        "poste": "Subvention d'investissement",
+        "montant_N": 0.0,
+        "montant_N1": 0.0
+      },
+      {
+        "rubrique": "CAPITAUX PROPRES ASSIMILES",
+        "poste": "Provisions réglementées",
+        "montant_N": 0.0,
+        "montant_N1": 0.0
+      },
+      {
+        "rubrique": "DETTES DE FINANCEMENT (C)",
+        "poste": "",
+        "montant_N": 1458433.47,
+        "montant_N1": 0.0
+      },
+      {
+        "rubrique": "DETTES DE FINANCEMENT",
+        "poste": "Emprunts obligataires",
+        "montant_N": 0.0,
+        "montant_N1": 0.0
+      },
+      {
+        "rubrique": "DETTES DE FINANCEMENT",
+        "poste": "Autres dettes de financement",
+        "montant_N": 1458433.47,
+        "montant_N1": 0.0
+      },
+      {
+        "rubrique": "PROVISIONS DURABLES POUR RISQUES ET CHARGES (D)",
+        "poste": "",
+        "montant_N": 0.0,
+        "montant_N1": 0.0
+      },
+      {
+        "rubrique": "PROVISIONS DURABLES POUR RISQUES ET CHARGES",
+        "poste": "Provisions pour risques",
+        "montant_N": 0.0,
+        "montant_N1": 0.0
+      },
+      {
+        "rubrique": "PROVISIONS DURABLES POUR RISQUES ET CHARGES",
+        "poste": "Provisions pour charges",
+        "montant_N": 0.0,
+        "montant_N1": 0.0
+      },
+      {
+        "rubrique": "COMPTES DE LIAISON DES ETABLISSEMENTS ET SUCCURSALES",
+        "poste": "",
+        "montant_N": 0.0,
+        "montant_N1": 0.0
+      },
+      {
+        "rubrique": "ECARTS DE CONVERSION-PASSIF (E)",
+        "poste": "",
+        "montant_N": 0.0,
+        "montant_N1": 0.0
+      },
+      {
+        "rubrique": "ECARTS DE CONVERSION-PASSIF",
+        "poste": "Augmentation des créances immobilisées",
+        "montant_N": 0.0,
+        "montant_N1": 0.0
+      },
+      {
+        "rubrique": "ECARTS DE CONVERSION-PASSIF",
+        "poste": "Diminution des dettes de financement",
+        "montant_N": 0.0,
+        "montant_N1": 0.0
+      },
+      {
+        "rubrique": "Total I(A+B+C+D+E+F)",
+        "poste": "",
+        "montant_N": 263305.76,
+        "montant_N1": -1357427.74
+      },
+      {
+        "rubrique": "DETTES DU PASSIF CIRCULANT",
+        "poste": "",
+        "montant_N": 25031110.15,
+        "montant_N1": 23547655.65
+      },
+      {
+        "rubrique": "DETTES DU PASSIF CIRCULANT",
+        "poste": "Fournisseurs et comptes rattachés",
+        "montant_N": 901296.03,
+        "montant_N1": 1038741.4
+      },
+      {
+        "rubrique": "DETTES DU PASSIF CIRCULANT",
+        "poste": "Clients créditeurs, avances et acomptes",
+        "montant_N": 0.0,
+        "montant_N1": 0.0
+      },
+      {
+        "rubrique": "DETTES DU PASSIF CIRCULANT",
+        "poste": "Personnel",
+        "montant_N": 4662.68,
+        "montant_N1": 0.0
+      },
+      {
+        "rubrique": "DETTES DU PASSIF CIRCULANT",
+        "poste": "Organismes sociaux",
+        "montant_N": 6511.52,
+        "montant_N1": 6439.85
+      },
+      {
+        "rubrique": "DETTES DU PASSIF CIRCULANT",
+        "poste": "Etat",
+        "montant_N": 1015660.16,
+        "montant_N1": 811724.24
+      },
+      {
+        "rubrique": "DETTES DU PASSIF CIRCULANT",
+        "poste": "Comptes d'associés",
+        "montant_N": 23102979.76,
+        "montant_N1": 21690750.16
+      },
+      {
+        "rubrique": "DETTES DU PASSIF CIRCULANT",
+        "poste": "Autres créanciers",
+        "montant_N": 0.0,
+        "montant_N1": 0.0
+      },
+      {
+        "rubrique": "DETTES DU PASSIF CIRCULANT",
+        "poste": "Comptes de régularisation passif",
+        "montant_N": 0.0,
+        "montant_N1": 0.0
+      },
+      {
+        "rubrique": "AUTRES PROVISIONS POUR RISQUES ET CHARGES",
+        "poste": "",
+        "montant_N": 0.0,
+        "montant_N1": 0.0
+      },
+      {
+        "rubrique": "ECARTS DE CONVERSION-PASSIF (Eléments circulants)",
+        "poste": "",
+        "montant_N": 0.0,
+        "montant_N1": 0.0
+      },
+      {
+        "rubrique": "Total II (F+G+H)",
+        "poste": "",
+        "montant_N": 25031110.15,
+        "montant_N1": 23547655.65
+      },
+      {
+        "rubrique": "TRESORERIE-PASSIF",
+        "poste": "",
+        "montant_N": 7797.54,
+        "montant_N1": 0.0
+      },
+      {
+        "rubrique": "TRESORERIE-PASSIF",
+        "poste": "Crédits d'escompte",
+        "montant_N": 0.0,
+        "montant_N1": 0.0
+      },
+      {
+        "rubrique": "TRESORERIE-PASSIF",
+        "poste": "Crédits de trésorerie",
+        "montant_N": 0.0,
+        "montant_N1": 0.0
+      },
+      {
+        "rubrique": "TRESORERIE-PASSIF",
+        "poste": "Banques (soldes créditeurs)",
+        "montant_N": 7797.54,
+        "montant_N1": 0.0
+      },
+      {
+        "rubrique": "Total III",
+        "poste": "",
+        "montant_N": 7797.54,
+        "montant_N1": 0.0
+      },
+      {
+        "rubrique": "TOTAL GENERAL I+II+III",
+        "poste": "",
+        "montant_N": 25302213.45,
+        "montant_N1": 22190227.91
+      }
+    ],
+    "totaux": {
+      "total_I_financement_permanent_N": 263305.76,
+      "total_II_passif_circulant_N": 25031110.15,
+      "total_III_tresorerie_passif_N": 7797.54,
+      "total_general_passif_N": 25302213.45,
+      "total_general_passif_N1": 22190227.91
+    }
+  },
+  "synthese_controle": {
+    "total_general_actif_N": 25302213.45,
+    "total_general_passif_N": 25302213.45,
+    "ecart_N": 0.0,
+    "equilibre_respecte": true
+  }
+}
