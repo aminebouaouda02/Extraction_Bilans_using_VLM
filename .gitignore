@@ -34,14 +34,17 @@ create_presentation.py
 create_presentation_v2.py
 create_presentation_claude.py
 build_claude_inspired_presentation.py
+build_full_16_slide_deck.py
+generate_deck_charts.py
 dump_all_claude_slides.py
 inspect_claude_pptx.py
 export_all_images.py
 save_all_outputs.py
 test_exact_call.py
 
-# Internal report & context notes
+# Internal reports, speaker notes & context notes
 RAPPORT_PROJET_ET_CONTEXTE_VLM.md
+ORAL_DEFENSE_SPEAKER_SCRIPT.md
 
 # Binary documents (PDFs & PPTX presentations)
 *.pdf
